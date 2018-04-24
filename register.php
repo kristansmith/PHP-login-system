@@ -1,7 +1,12 @@
+<?php
+define('__CONFIG__', true);
+require_once "inc/config.php";
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Title</title>
+        <title>Toootle</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/uikit.min.css" />
@@ -11,7 +16,7 @@
         
         <div class="uk-section uk-container">
             <div class="uk-grid uk-child-width-1-3@s uk-child-width-1-1">
-                    <h1>Logini</h1>
+                    <h1>Register</h1>
                     <form class="uk-form-stacked">
 
                             <div class="uk-margin">
@@ -28,17 +33,15 @@
                                 </div>
                         
                             <div class="uk-margin">
-                                <button class="uk-button uk-button-default" type="submit">Login</button>
+                                <button class="uk-button uk-button-default" type="submit">Register</button>
                             </div>
                         
                         </form>
             </div>
             
         </div>  
-        <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js"
-                integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-                crossorigin="anonymous"></script>
-        <script src="js/uikit.min.js"></script>
-        <script src="js/uikit-icons.min.js"></script>
+
+        <?php require_once "inc/footer.php"; ?>
+       
     </body>
 </html>
